@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jade Dades | Aspiring IT Professional &amp; Web Developer</title>
+  <meta name="description" content="Personal resume portfolio of Jade Dades, an aspiring IT professional and web developer from Jaro, Leyte, Philippines.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- Decorative glowing shapes (CSS only, very light on performance) -->
+  <div class="glow glow-1" aria-hidden="true"></div>
+  <div class="glow glow-2" aria-hidden="true"></div>
+
+  <!-- ===== NAVIGATION (sticky) ===== -->
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="#home" class="logo">Jade<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="navLinks" class="links" aria-label="Main">
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ===== HOME / HERO ===== -->
+    <section id="home" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <p class="pill a1">Open to learning and growing</p>
+          <h1 class="a2">Hello, I'm Jade Dades</h1>
+          <p class="typing a3" aria-live="off">
+            <span id="typed"></span><span class="cursor" aria-hidden="true">|</span>
+          </p>
+          <p class="lead a4">Aspiring IT Professional and future web developer, passionate about technology and always building new skills.</p>
+          <div class="btns a5">
+            <a href="#projects" class="btn primary">View My Projects</a>
+            <a href="#contact" class="btn ghost">Contact Me</a>
+          </div>
+        </div>
+        <div class="avatar-wrap a4">
+          <!--
+            HOW TO ADD YOUR PHOTO:
+            1. Save your picture in this folder and name it  profile.jpg
+            2. That's it! (If you use another name, change src below.)
+            Until then, a placeholder silhouette is shown.
+          -->
+          <img id="profilePic" class="avatar" src="831760677_1075409755344400_4836972010073293787_n.jpg" alt="Portrait of Jade Dades" width="320" height="320">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section">
+      <div class="wrap narrow reveal">
+        <h2>About Me</h2>
+        <p>I'm an 18-year-old aspiring IT professional from Jaro, Leyte. I enjoy learning programming, networking, web development, and modern technologies, and I like turning ideas into things that actually work.</p>
+        <p>I'm eager to learn, creative when solving problems, and I do my best work in a team. Every project, big or small, is a chance for me to improve, and I'm looking for opportunities to grow in the IT field.</p>
+        <ul class="facts">
+          <li><strong>Location</strong> Hibucawan, Jaro, Leyte, Philippines</li>
+          <li><strong>Age</strong> 18</li>
+          <li><strong>Focus</strong> Web development and IT fundamentals</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section alt">
+      <div class="wrap reveal">
+        <h2>IT Skills</h2>
+        <p class="sub">What I'm learning and practicing right now.</p>
+        <div class="grid">
+          <article class="card"><span class="ico" aria-hidden="true">🎨</span><h3>HTML and CSS</h3><p>Building structured, styled web pages.</p></article>
+          <article class="card"><span class="ico" aria-hidden="true">⚡</span><h3>JavaScript Fundamentals</h3><p>Adding interactivity with core JavaScript.</p></article>
+          <article class="card"><span class="ico" aria-hidden="true">📱</span><h3>Responsive Web Design</h3><p>Layouts that work on phones, tablets, and desktops.</p></article>
+          <article class="card"><span class="ico" aria-hidden="true">💻</span><h3>Basic Programming</h3><p>Variables, loops, functions, and logic.</p></article>
+          <article class="card"><span class="ico" aria-hidden="true">🌐</span><h3>Computer Networking Fundamentals</h3><p>IP addressing, devices, and how networks connect.</p></article>
+          <article class="card"><span class="ico" aria-hidden="true">🔧</span><h3>Hardware and Troubleshooting</h3><p>Identifying components and fixing common issues.</p></article>
+          <article class="card"><span class="ico" aria-hidden="true">🗄️</span><h3>Database Fundamentals</h3><p>Tables, records, and basic queries.</p></article>
+          <article class="card"><span class="ico" aria-hidden="true">🐙</span><h3>Git and GitHub</h3><p>Version control and sharing code.</p></article>
+          <article class="card"><span class="ico" aria-hidden="true">🧩</span><h3>Problem-Solving</h3><p>Breaking problems into small, solvable steps.</p></article>
+          <article class="card"><span class="ico" aria-hidden="true">🤝</span><h3>Teamwork and Communication</h3><p>Listening, sharing ideas, and collaborating.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section">
+      <div class="wrap reveal">
+        <h2>Projects</h2>
+        <p class="sub">These are sample projects. I'll replace them with my real work.</p>
+        <div class="grid three">
+          <!-- Replace each href="#" with your GitHub repository link -->
+          <article class="card">
+            <span class="tag">Sample project</span>
+            <h3>Personal Portfolio Website</h3>
+            <p>A responsive site that introduces me and shows my skills. Placeholder description.</p>
+            <a class="btn small" href="#" target="_blank" rel="noopener">View on GitHub</a>
+          </article>
+          <article class="card">
+            <span class="tag">Sample project</span>
+            <h3>Student Information System</h3>
+            <p>A simple system for managing student records. Placeholder description.</p>
+            <a class="btn small" href="#" target="_blank" rel="noopener">View on GitHub</a>
+          </article>
+          <article class="card">
+            <span class="tag">Sample project</span>
+            <h3>Basic Networking Project</h3>
+            <p>A small network setup with devices and addressing. Placeholder description.</p>
+            <a class="btn small" href="#" target="_blank" rel="noopener">View on GitHub</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RESUME ===== -->
+    <section id="resume" class="section alt">
+      <div class="wrap narrow reveal">
+        <h2>Resume</h2>
+        <!--
+          The button below opens the print dialog; choose "Save as PDF".
+          To offer your own file instead, put resume.pdf in this folder and
+          replace the button with: <a class="btn primary" href="resume.pdf" download>Download Resume</a>
+        -->
+        <button class="btn primary" id="printBtn" type="button">Download Resume (Save as PDF)</button>
+
+        <<article class="paper" id="resumePaper">
+  <div class="paper-head">
+    <img class="paper-photo" id="resumePic" src="Capture.PNG" alt="Photo of Jade Dades" width="120" height="120">
+    <div>
+      <h3>Jade Dades</h3>
+      <p class="role">Aspiring IT Professional / Web Developer</p>
+      <p>Hibucawan, Jaro, Leyte, Philippines<br>dadesj22@gmail.com</p>
+    </div>
+  </div>
+
+          <h4>Career Objective</h4>
+          <p>To grow as an IT professional by applying my skills in web development, networking, and problem-solving, while learning from experienced teammates.</p>
+
+          <h4>Education</h4>
+          <p class="ph">[Visayas State University]<br>[Bachelor of Science in Information Technology]<br>[2026-2027]</p>
+
+          <h4>Technical Skills</h4>
+          <p>HTML and CSS, JavaScript Fundamentals, Responsive Web Design, Basic Programming, Networking Fundamentals, Hardware Troubleshooting, Database Fundamentals, Git and GitHub</p>
+
+          <h4>References</h4>
+          <p class="ph">[dadesjade@gwapo langss emesss!]</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section">
+      <div class="wrap contact-grid reveal">
+        <div>
+          <h2>Contact</h2>
+          <p class="sub">Have a question or an opportunity? I'd love to hear from you.</p>
+          <p><strong>Email</strong><br><a href="mailto:dadesj22@gmail.com">dadesj22@gmail.com</a></p>
+          <p><strong>Location</strong><br>Hibucawan, Jaro, Leyte, Philippines</p>
+          <a class="btn primary" href="mailto:dadesj22@gmail.com">Send an Email</a>
+        </div>
+        <!--
+          NOTE ABOUT THE FORM: a website alone cannot send email. A truly working form
+          needs a backend or a form service (for example Formspree or Web3Forms).
+          For now, script.js opens your email app with the message filled in.
+        -->
+        <form id="contactForm" class="form" novalidate>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <button class="btn primary" type="submit">Send Message</button>
+          <p id="formMsg" class="formmsg" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year">2026</span> Jade Dades. Built with HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
